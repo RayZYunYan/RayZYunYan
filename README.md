@@ -29,17 +29,17 @@
 ## Ongoing Projects
 
 ### 🔹 Raylytics — After-hours earnings analysis & signal pipeline
-**Status:** Active (private, personal project)
+**Status:** ✅ Complete
 
 A backend-focused system for analyzing after-hours earnings events and surfacing structured, high-signal opportunities.
 
 - Parses and structures earnings-related financial data
 - Combines market context with deterministic, rule-based scoring
-- Currently focused on **automation, reliability, and reproducibility**
-- Designed as a modular pipeline to support future extensions
+- **Fully automated and production-ready pipeline**
 
-The current stage emphasizes building a **stable and fully automated pipeline**.  
-AI-based components will be introduced in later phases to improve signal quality and decision support.
+**Progress:** `████████████████████ 100%`
+
+▶ **Next phase:** AI-based signal enhancement (short-horizon prediction)
 
 **Tech stack:** Python, FastAPI, Selenium, Pandas, custom parsers
 
@@ -48,36 +48,33 @@ AI-based components will be introduced in later phases to improve signal quality
 
 ---
 
-### 🔹 Job-Matcher — Resume ↔ Job Description matching engine
-**Status:** Active (collaborative project)
+### 🔹 Short-horizon market direction prediction (AI)
+**Status:** 🔄 Active
 
-A collaborative AI-assisted system that evaluates how well a resume matches a job description, with an emphasis on **interpretable matching evidence** rather than opaque scores.
+An ML/DL system predicting short-term market direction using financial news, price dynamics, and earnings signals.
+
+- Data sourcing, feature engineering, and problem formulation underway
+- Combining textual signals, market data, and event-driven information
+- Building toward an end-to-end trainable model
+
+**Progress:** `████████████░░░░░░░░ 60%`
+
+---
+
+### 🔹 Job-Matcher — Resume ↔ Job Description matching engine
+**Status:** ⏸ Paused
+
+A collaborative AI-assisted system for interpretable resume-to-JD matching with sentence-level evidence.
 
 - Extracts structured requirements from job descriptions
 - Embeds resume and JD content to compute semantic similarity
 - Returns matched sentence-level evidence to support scoring transparency
 
+**Progress:** On hold — development temporarily paused.
+
 **Tech stack:** Python, Sentence-Transformers, KeyBERT, FastAPI
 
 Repo: https://github.com/Hermit888/Job-Matcher
-
-
----
-
-### 🔹 Short-horizon market direction prediction (AI)
-**Status:** Planning & research phase
-
-An upcoming ML/DL-focused project aimed at predicting short-term market direction using a combination of:
-
-- Financial news and textual signals
-- Market data and price dynamics
-- Earnings and event-driven information
-
-Current work focuses on data sourcing, problem formulation, and feature design before selecting and training specific ML or deep learning models.
-
-The goal is to build an end-to-end AI system that learns from multi-source signals to support short-horizon market direction prediction.
-
----
 
 ## Tech Stack
 
