@@ -28,54 +28,33 @@
 
 ## Ongoing Projects
 
-### 🔹 Raylytics — After-hours earnings analysis & signal pipeline
-**Status:** Active (private, personal project)
+### 🔹 Agent_Trial_Design
+**Status:** Active (research project, USC)
 
-A backend-focused system for analyzing after-hours earnings events and surfacing structured, high-signal opportunities.
+A research project under **Prof. Ruishan Liu** at USC, focused on agent-based trial design.
 
-- Parses and structures earnings-related financial data
-- Combines market context with deterministic, rule-based scoring
-- Currently focused on **automation, reliability, and reproducibility**
-- Designed as a modular pipeline to support future extensions
-
-The current stage emphasizes building a **stable and fully automated pipeline**.  
-AI-based components will be introduced in later phases to improve signal quality and decision support.
-
-**Tech stack:** Python, FastAPI, Selenium, Pandas, custom parsers
-
-> ⚠️ **Note:** Raylytics is a personal project involving proprietary logic and trading-related insights.  
-> To protect intellectual property, the source code and core implementation are not publicly accessible.
+Repo: https://github.com/RayZYunYan/Agent_Trial_Design
 
 ---
 
-### 🔹 Job-Matcher — Resume ↔ Job Description matching engine
-**Status:** Active (collaborative project)
+### 🔹 erAIser Inc — AI Content Generation & Plagiarism Detection
+**Status:** Active (company project)
 
-A collaborative AI-assisted system that evaluates how well a resume matches a job description, with an emphasis on **interpretable matching evidence** rather than opaque scores.
+Building AI-powered pipelines at **erAIser Inc** to enable customized content generation and assignment originality checking.
 
-- Extracts structured requirements from job descriptions
-- Embeds resume and JD content to compute semantic similarity
-- Returns matched sentence-level evidence to support scoring transparency
+- Develops end-to-end pipelines for AI-generated, personalized content
+- Builds assignment plagiarism detection services
 
-**Tech stack:** Python, Sentence-Transformers, KeyBERT, FastAPI
-
-Repo: https://github.com/Hermit888/Job-Matcher
-
+For more details, feel free to check out my [LinkedIn](https://www.linkedin.com/in/ray-zhang-cs-cn/).
 
 ---
 
-### 🔹 Short-horizon market direction prediction (AI)
-**Status:** Planning & research phase
+### 🔹 ClarityStack — Tech Content Sharing Platform
+**Status:** Active (personal project)
 
-An upcoming ML/DL-focused project aimed at predicting short-term market direction using a combination of:
+A personal web platform for collecting and sharing emerging tech discoveries, with **Nemoclaw** powering automated content processing.
 
-- Financial news and textual signals
-- Market data and price dynamics
-- Earnings and event-driven information
-
-Current work focuses on data sourcing, problem formulation, and feature design before selecting and training specific ML or deep learning models.
-
-The goal is to build an end-to-end AI system that learns from multi-source signals to support short-horizon market direction prediction.
+Repo: https://github.com/RayZYunYan/ClarityStack
 
 ---
 
